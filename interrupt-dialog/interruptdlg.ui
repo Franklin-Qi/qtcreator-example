@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>interruptDlg</class>
+ <widget class="QWidget" name="interruptDlg">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>320</width>
+    <height>200</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="btnKnow">
+   <property name="geometry">
+    <rect>
+     <x>157</x>
+     <y>128</y>
+     <width>122</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>PingFang SC</family>
+     <pointsize>-1</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">width: 120px;
+height: 36px;
+background: #2F2C2B;
+border: 1px solid #939393;
+border-radius: 18px;
+
+font-size: 14px;
+font-weight: 400;
+font-family: PingFang SC;
+color: #FFFFFF;
+line-height: 40px;
+</string>
+   </property>
+   <property name="text">
+    <string>知道了</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labInfo">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>70</y>
+     <width>81</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="baseSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">width: 222px;
+height: 18px;
+font-size: 18px;
+font-family: PingFang SC;
+font-weight: 400;
+color: #FFFFFF;
+line-height: 40px;
+opacity: 0.85;</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labWarnImage">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>70</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="icon.qrc">:/icon/svg/warn.svg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnClose">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>10</y>
+     <width>20</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string/>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton { 
+border-image: url(:/icon/icon/close_white.svg);
+background-color:rgb(47,44,43);
+border-radius:4px;
+}
+
+QPushButton:hover {
+border-image: url(:/icon/icon/close_white.svg);
+
+background-color:rgb(240,65,52);
+border-radius:4px；
+}
+
+QPushButton:checked
+{
+border-image: url(:/icon/icon/close_white.svg);
+
+background-color:rgb(215,52,53);
+border-radius:4px;
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/icon/icon/close_white.svg</normaloff>:/icon/icon/close_white.svg</iconset>
+   </property>
+   <property name="autoRepeatDelay">
+    <number>300</number>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="icon.qrc"/>
+ </resources>
+ <connections/>
+</ui>

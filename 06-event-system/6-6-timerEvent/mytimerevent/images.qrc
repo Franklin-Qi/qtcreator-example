@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/res">
+        <file>res/loading1.svg</file>
+        <file>res/loading2.svg</file>
+        <file>res/loading3.svg</file>
+        <file>res/loading4.svg</file>
+        <file>res/loading5.svg</file>
+        <file>res/loading6.svg</file>
+        <file>res/loading7.svg</file>
+    </qresource>
+</RCC>
